@@ -1,0 +1,273 @@
+.navmenu__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  
+    
+}
+.navmenu__links{
+   
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+
+   
+    
+    
+}
+a{
+    text-decoration: none;
+    color: #404040;
+    font-family: "Open Sans", serif;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+i{
+    color: #FAA196;
+    font-size: xx-large;
+    margin-left: 20px;
+    
+ 
+}
+.hero__container{
+    display: flex;
+}
+.hero__content{
+    background-color:#689572 ;
+    width: 50vw;
+    height: 699px;
+}
+
+    
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   
+.hero__content h2{
+    font-family: Rammetto One, sans-serif; 
+    color: white;
+    font-size: 40px;
+   width: 350px;
+
+}
+.hero__content p{
+    color: white;
+    margin-right: 80px;
+    font-family: ;
+    font-size: larger;
+}
+.hero__image img{
+    width: 50vw;
+    height: 699px;;
+}
+button{
+    font-family:Open Sans, serif ;
+    border: 3px solid white;
+    background-color: #689572;
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+    width: 200px;
+    margin-right:  100px; 
+    margin-top: 20px;
+    font-size: large;
+
+
+}
+.img--size-sm{
+    width:300px;
+    height: 300px;
+}
+.i--color-green{
+    color: #689572;
+    padding: 10px;
+}
+.menu__box{
+    display: flex;
+   width:30%;
+   height: 65vh;
+    background-color: #EBC9C4 ;
+    justify-content: center;
+    align-items: center;
+   
+    flex-wrap: wrap;
+   
+ 
+    
+    
+   
+}
+.menu__Imagescontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px;
+  
+
+}
+.Food__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .font--size-lg {
+    font-family: "Rammetto One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #404040;
+    text-align: center;
+    
+}
+.Food__container p {
+    text-align: center;
+    
+}
+
+
+
+
+    
+
+
+
+.menu__heading h1{
+    text-align: center;
+    color: #FAA196;
+    font-family: "Rammetto One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+.menu__itemscontainer{
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+}
+summary{
+    font-family: "Rammetto One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FAA196;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+    
+    
+
+
+}
+
+ul.menu__Imagescontainer{
+    padding: 5px;
+}
+
+.Reviews__Person{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+} 
+
+
+.Reviews__wrapper{
+    background-color:#FAA196 ;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+  width: 100vw;
+   
+    margin-right: 287px;
+
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+
+  
+    
+.Reviews__Container{
+    border: 3px solid white;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    text-align: center;
+   
+
+   
+}
+.i--color-gray{
+    color: #404040;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+
+}
+.larger--font-size{
+
+font-family: "Rammetto One", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #404040;}
+
+
+  .Reviews__author  {
+    font-family: "Open Sans", serif;
+ padding-left: 20px;
+    
+
+  }
+  .Reviews__Date{
+    font-family: "Open Sans", serif;
+ padding-right: 20px;
+
+  }
+  .image--color-white{
+    color: white;
+    padding: 10px;
+  }
+  .footer__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .Footer-container{
+    background-color: #82A289;
+   
+   height: 100px;
+  }
+  .image--leaf-icon{
+    font-weight: bolder ;
+  }
+  .image--social-icon{
+    padding-right: 100px;
+  }
+  .Footer__firstpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Footer__firstpart p{
+    color: white;
+    font-family: "Open Sans", serif;
+   
+
+  }

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 30px;
+  
     
 }
 .navmenu__links{
@@ -23,10 +24,7 @@ a{
     font-size: larger;
     
 }
-.box{
-    width:1300px;
-    margin-left: 300px;
-}
+
 i{
     color: #FAA196;
     font-size: xx-large;
@@ -39,7 +37,7 @@ i{
 }
 .hero__content{
     background-color:#689572 ;
-    width: 633px;
+    width: 50vw;
     height: 699px;
 }
 
@@ -65,6 +63,10 @@ i{
     font-family: ;
     font-size: larger;
 }
+.hero__image img{
+    width: 50vw;
+    height: 699px;;
+}
 button{
     font-family:Open Sans, serif ;
     border: 3px solid white;
@@ -89,11 +91,16 @@ button{
 }
 .menu__box{
     display: flex;
-    width: 350px;
-    height:550px;
+   width:30%;
+   height: 65vh;
     background-color: #EBC9C4 ;
-    padding-left: 50px;
-    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+   
+    flex-wrap: wrap;
+   
+ 
+    
     
    
 }
@@ -101,8 +108,10 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 10px;
-    column-gap: 20px;
+    align-items: center;
+    row-gap: 50px;
+  
+
 }
 .Food__container{
     display: flex;
@@ -152,9 +161,13 @@ summary{
     font-weight: 400;
     font-style: normal;
     background-color: #FAA196;
-    margin-left: 5px;
-    padding: 20px;
-    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+    
+    
 
 
 }
@@ -173,12 +186,11 @@ ul.menu__Imagescontainer{
 
 .Reviews__wrapper{
     background-color:#FAA196 ;
-    height: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 500px;
-    margin-left: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  width: 100vw;
+   
     margin-right: 287px;
 
     text-align: center;
@@ -191,7 +203,7 @@ ul.menu__Imagescontainer{
     
 .Reviews__Container{
     border: 3px solid white;
-    width: 600px;
+    width: 700px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -241,7 +253,7 @@ font-family: "Rammetto One", serif;
   .Footer-container{
     background-color: #82A289;
    
-   height: 80px;
+   height: 100px;
   }
   .image--leaf-icon{
     font-weight: bolder ;
@@ -257,5 +269,6 @@ font-family: "Rammetto One", serif;
   .Footer__firstpart p{
     color: white;
     font-family: "Open Sans", serif;
+   
 
   }
