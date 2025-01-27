@@ -59,7 +59,7 @@ i{
 .hero__content p{
     color: white;
     margin-right: 80px;
-    font-family: ;
+    
     font-size: larger;
 }
 .hero__image img{
@@ -175,6 +175,7 @@ ul.menu__Imagescontainer{
     padding: 5px;
 }
 
+
 .Reviews__Person{
     display: flex;
     justify-content: space-between;
@@ -188,6 +189,8 @@ ul.menu__Imagescontainer{
     height: 500px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+
   width: 100vw;
    
     margin-right: 287px;
@@ -202,7 +205,7 @@ ul.menu__Imagescontainer{
     
 .Reviews__Container{
     border: 3px solid white;
-    width: 700px;
+    width: 600px;
     height: 200px;
     display: flex;
     flex-direction: column;
