@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+</head>
+<style>
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #82A289;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    /* Form Container */
+    .form {
+        background-color: #FAA196;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 600px;
+        height:600px;
+    
+        
+    }
+    
+    /* Form Groups */
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       
+
+    }
+    
+    /* Form Content */
+    .form-content {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        outline: none;
+        transition: border-color 0.3s ease;
+    }
+    
+    /* Placeholder Styling */
+    textarea::placeholder {
+        color: #aaa;
+    }
+    
+    /* Input Focus */
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+    }
+    
+    /* Button Styles */
+    button {
+        padding: 10px 15px;
+        background-color: #689572;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #82A289;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 600px) {
+        .form {
+            padding: 15px;
+        }
+    
+        label {
+            font-size: 14px;
+        }
+    
+        input,
+        select,
+        textarea {
+            font-size: 13px;
+        }
+    
+        button {
+            font-size: 13px;
+        }
+  
+
+  
+   
+  
+</style>
+
+<body>
+    
+    <form>
+        <div class="form">
+        <section class="form-group">
+           
+            <div class="form-content">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+            </div>
+
+            <div class="form-content">
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" required>
+        </div>
+
+        <div class="form-content">
+            <label for="Select Reason">Select Reason</label>
+            <select id="Select Reason" name="Select Reason" required>
+                <option value="disabled selected">Please select a topic</option>
+                <option value="Bookings">Bookings</option>
+                <option value="Online orders">Online Orders</option>
+                <option value="Complaints">Complaints</option>
+            </select>
+        </div>
+        <div class="form-content">
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" placeholder="Enter Your Message" required></textarea>
+        </div>
+
+            <div class="form-content">
+            <button type="Submit">Submit</button>
+            </div>
+            
+        </section>
+    </div>
+    </form>
+</body>
+</html>
