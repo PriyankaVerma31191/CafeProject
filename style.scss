@@ -185,12 +185,12 @@ ul.menu__Imagescontainer{
 
 
 .Reviews__wrapper{
-    margin-top: 50px;
+    // margin-top: 00px;
     background-color:#FAA196 ;
     height: 600px;
     display: flex;
     justify-content: space-evenly;
-    // align-items: center;
+    align-items: center;
     flex-wrap: wrap;
   width: 100vw;
    
@@ -210,8 +210,8 @@ width: 1000px;
     display: flex;
    
 
-    // justify-content: space-around;
-    flex-direction: column;
+  
+    // flex-direction: column;
     flex-wrap: wrap;
     margin: 10px;
     text-align: center;
