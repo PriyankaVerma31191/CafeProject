@@ -205,13 +205,13 @@ ul.menu__Imagescontainer{
     
 .Reviews__Container{
     border: 3px solid white;
-width: 1000px;
+width: 900px;
     height: 200px;
     display: flex;
    
 
   
-    // flex-direction: column;
+    flex-direction: column;
     flex-wrap: wrap;
     margin: 10px;
     text-align: center;
@@ -229,9 +229,11 @@ width: 1000px;
 .larger--font-size{
 
 font-family: "Rammetto One", serif;
-  font-weight: 400;
+//   font-weight: 200;
   font-style: italic;
-  color: #404040;}
+  color: #404040;
+  text-align: center;
+}
 
 
   .Reviews__author  {
